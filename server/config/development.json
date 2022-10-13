@@ -1,0 +1,18 @@
+{
+    "sqlConfig": {
+        "user": "sa",
+        "password": "spts@3311",
+        "server": "10.0.0.9",
+        "port": 1435,
+        "database": "ILApparelSooperWizer",
+        "requestTimeout": 3000000,
+        "connectionTimeout": 3000000,
+        "trustServerCertificate": true
+    },
+    "kafkaConfig": {
+        "brokers": "10.0.0.5:9093",
+        "clientId": "my-app",
+        "topic": "ILApparelTesting.Reports.Basic_v2",
+        "groupId": "kamran-group"
+    }
+}
